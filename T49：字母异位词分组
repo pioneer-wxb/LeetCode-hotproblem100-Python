@@ -1,0 +1,10 @@
+class solution
+  def groupAnagrams(self, strs):
+    HashMap = {}
+    for i in strs:
+      i_ = "".join(sorted(i)
+      if i_ not in HashMap:
+        HashMap[i_] = [i]
+      else:
+        HashMap[i_].append(i)
+    return list(HashMap.values())
