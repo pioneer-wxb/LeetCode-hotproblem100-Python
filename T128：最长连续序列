@@ -15,6 +15,9 @@ class solution
   元素3不是开头，因为2存在，过，
   元素2不是开头，因为1存在，过。
   Over
+
+  此算法的时间复杂度为：O(N)
+  此算法的空间复杂度为：O(N)
   ###
   def longestConsecutive(self, nums):
   """
